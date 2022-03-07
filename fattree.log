@@ -1,0 +1,4972 @@
+INFO:mininet:*** Creating network
+
+INFO:mininet:*** Adding hosts:
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Adding switches:
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+*** Adding links:
+
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2008) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h001) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h002) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h003) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h004) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h005) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h006) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h007) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h009) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h010) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h011) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h012) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h013) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h014) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h015) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h016) 
+INFO:mininet:
+
+INFO:mininet:*** Configuring hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+
+WARNING:mininet:Unable to contact the remote controller at 127.0.0.1:6633
+
+INFO:mininet:*** Starting controller
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Starting 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:...
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:
+
+INFO:mininet:*** Starting CLI:
+
+Level 25:mininet:*** Ping: testing ping reachability
+
+Level 25:mininet:h001 -> 
+Level 25:mininet:h002 
+Level 25:mininet:h003 
+Level 25:mininet:h004 
+Level 25:mininet:h005 
+Level 25:mininet:h006 
+Level 25:mininet:h007 
+Level 25:mininet:h008 
+Level 25:mininet:h009 
+Level 25:mininet:h010 
+Level 25:mininet:h011 
+Level 25:mininet:h012 
+Level 25:mininet:h013 
+Level 25:mininet:h014 
+Level 25:mininet:
+Interrupt
+
+INFO:mininet:stopping h001 
+
+Level 25:mininet:
+
+INFO:mininet:*** Stopping 1 controllers
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 48 links
+
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:
+
+INFO:mininet:*** Stopping 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 16 hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Done
+
+INFO:mininet:*** Creating network
+
+INFO:mininet:*** Adding hosts:
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Adding switches:
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+*** Adding links:
+
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2008) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h001) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h002) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h003) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h004) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h005) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h006) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h007) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h009) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h010) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h011) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h012) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h013) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h014) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h015) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h016) 
+INFO:mininet:
+
+INFO:mininet:*** Configuring hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+
+WARNING:mininet:Unable to contact the remote controller at 127.0.0.1:6633
+
+INFO:mininet:*** Starting controller
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Starting 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:...
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:
+
+INFO:mininet:*** Starting CLI:
+
+Level 25:mininet:*** Ping: testing ping reachability
+
+Level 25:mininet:h001 -> 
+Level 25:mininet:h002 
+Level 25:mininet:h003 
+Level 25:mininet:h004 
+Level 25:mininet:h005 
+Level 25:mininet:X 
+Level 25:mininet:X 
+Level 25:mininet:h008 
+Level 25:mininet:X 
+Level 25:mininet:h010 
+Level 25:mininet:h011 
+Level 25:mininet:X 
+Level 25:mininet:h013 
+Level 25:mininet:h014 
+Level 25:mininet:
+Interrupt
+
+INFO:mininet:stopping h001 
+
+INFO:mininet:*** Stopping 1 controllers
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 48 links
+
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:
+
+INFO:mininet:*** Stopping 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 16 hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Done
+
+INFO:mininet:*** Creating network
+
+INFO:mininet:*** Adding hosts:
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Adding switches:
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+*** Adding links:
+
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2008) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h001) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h002) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h003) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h004) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h005) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h006) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h007) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h009) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h010) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h011) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h012) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h013) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h014) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h015) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h016) 
+INFO:mininet:
+
+INFO:mininet:*** Configuring hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+
+WARNING:mininet:Unable to contact the remote controller at 127.0.0.1:6633
+
+INFO:mininet:*** Starting controller
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Starting 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:...
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:
+
+INFO:mininet:*** Starting CLI:
+
+Level 25:mininet:*** Ping: testing ping reachability
+
+Level 25:mininet:h001 -> 
+Level 25:mininet:X 
+Level 25:mininet:X 
+Level 25:mininet:
+Interrupt
+
+INFO:mininet:stopping h001 
+
+INFO:mininet:*** Stopping 1 controllers
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 48 links
+
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:
+
+INFO:mininet:*** Stopping 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 16 hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Done
+
+INFO:mininet:*** Creating network
+
+INFO:mininet:*** Adding hosts:
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Adding switches:
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+*** Adding links:
+
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2008) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h001) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h002) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h003) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h004) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h005) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h006) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h007) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h009) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h010) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h011) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h012) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h013) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h014) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h015) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h016) 
+INFO:mininet:
+
+INFO:mininet:*** Configuring hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+
+WARNING:mininet:Unable to contact the remote controller at 127.0.0.1:6633
+
+INFO:mininet:*** Starting controller
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Starting 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:...
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:
+
+INFO:mininet:*** Starting CLI:
+
+Level 25:mininet:*** Ping: testing ping reachability
+
+Level 25:mininet:h001 -> 
+Level 25:mininet:h002 
+Level 25:mininet:h003 
+Level 25:mininet:h004 
+Level 25:mininet:h005 
+Level 25:mininet:h006 
+Level 25:mininet:h007 
+Level 25:mininet:h008 
+Level 25:mininet:X 
+Level 25:mininet:X 
+Level 25:mininet:h011 
+Level 25:mininet:h012 
+Level 25:mininet:h013 
+Level 25:mininet:X 
+Level 25:mininet:h015 
+Level 25:mininet:h016 
+Level 25:mininet:
+
+Level 25:mininet:h002 -> 
+Level 25:mininet:h001 
+Level 25:mininet:h003 
+Level 25:mininet:h004 
+Level 25:mininet:h005 
+Level 25:mininet:X 
+Level 25:mininet:h007 
+Level 25:mininet:h008 
+Level 25:mininet:h009 
+Level 25:mininet:h010 
+Level 25:mininet:X 
+Level 25:mininet:h012 
+Level 25:mininet:h013 
+Level 25:mininet:h014 
+Level 25:mininet:h015 
+Level 25:mininet:h016 
+Level 25:mininet:
+
+Level 25:mininet:h003 -> 
+Level 25:mininet:h001 
+Level 25:mininet:X 
+Level 25:mininet:h004 
+Level 25:mininet:X 
+Level 25:mininet:h006 
+Level 25:mininet:h007 
+Level 25:mininet:X 
+Level 25:mininet:X 
+Level 25:mininet:X 
+Level 25:mininet:X 
+Level 25:mininet:h012 
+Level 25:mininet:X 
+Level 25:mininet:h014 
+Level 25:mininet:h015 
+Level 25:mininet:X 
+Level 25:mininet:
+
+Level 25:mininet:h004 -> 
+Level 25:mininet:h001 
+Level 25:mininet:h002 
+Level 25:mininet:h003 
+Level 25:mininet:X 
+Level 25:mininet:h006 
+Level 25:mininet:h007 
+Level 25:mininet:X 
+Level 25:mininet:X 
+Level 25:mininet:h010 
+Level 25:mininet:X 
+Level 25:mininet:h012 
+Level 25:mininet:h013 
+Level 25:mininet:X 
+Level 25:mininet:X 
+Level 25:mininet:
+Interrupt
+
+INFO:mininet:stopping h004 
+
+INFO:mininet:*** Stopping 1 controllers
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 48 links
+
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:
+
+INFO:mininet:*** Stopping 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 16 hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Done
+
+INFO:mininet:*** Creating network
+
+INFO:mininet:*** Adding hosts:
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Adding switches:
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+*** Adding links:
+
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2008) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h001) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h002) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h003) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h004) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h005) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h006) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h007) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h009) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h010) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h011) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h012) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h013) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h014) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h015) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h016) 
+INFO:mininet:
+
+INFO:mininet:*** Configuring hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+
+WARNING:mininet:Unable to contact the remote controller at 127.0.0.1:6633
+
+INFO:mininet:*** Starting controller
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Starting 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:...
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:
+
+INFO:mininet:*** Starting CLI:
+
+INFO:mininet:*** Stopping 1 controllers
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 48 links
+
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:
+
+INFO:mininet:*** Stopping 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 16 hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Done
+
+INFO:mininet:*** Creating network
+
+INFO:mininet:*** Adding hosts:
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Adding switches:
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+*** Adding links:
+
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2008) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h001) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h002) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h003) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h004) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h005) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h006) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h007) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h009) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h010) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h011) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h012) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h013) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h014) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h015) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h016) 
+INFO:mininet:
+
+INFO:mininet:*** Configuring hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+
+INFO:mininet:*** Starting controller
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Starting 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:...
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:
+
+INFO:mininet:*** Starting CLI:
+
+Level 25:mininet:PING 10.0.0.16 (10.0.0.16) 56(84) bytes of data.
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=64 ttl=64 时间=2711 毫秒
+64 比特，来自 10.0.0.16: icmp_seq=62 ttl=64 时间=4760 毫秒
+64 比特，来自 10.0.0.16: icmp_seq=65 ttl=64 时间=1688 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=63 ttl=64 时间=3736 毫秒
+64 比特，来自 10.0.0.16: icmp_seq=66 ttl=64 时间=665 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=67 ttl=64 时间=0.070 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=68 ttl=64 时间=0.070 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=69 ttl=64 时间=0.073 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=70 ttl=64 时间=0.117 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=71 ttl=64 时间=0.069 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=72 ttl=64 时间=0.130 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=73 ttl=64 时间=0.062 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=74 ttl=64 时间=0.150 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=75 ttl=64 时间=0.068 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=76 ttl=64 时间=0.068 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=77 ttl=64 时间=0.067 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=78 ttl=64 时间=0.070 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=79 ttl=64 时间=0.069 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=80 ttl=64 时间=0.121 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=81 ttl=64 时间=0.071 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=82 ttl=64 时间=0.069 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=83 ttl=64 时间=0.069 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=84 ttl=64 时间=0.072 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=85 ttl=64 时间=0.068 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=86 ttl=64 时间=0.074 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=87 ttl=64 时间=0.062 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=88 ttl=64 时间=0.072 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=89 ttl=64 时间=0.073 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=90 ttl=64 时间=0.083 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=91 ttl=64 时间=0.070 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=92 ttl=64 时间=0.053 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=93 ttl=64 时间=0.072 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=94 ttl=64 时间=0.071 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=95 ttl=64 时间=0.069 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=96 ttl=64 时间=0.069 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=97 ttl=64 时间=0.075 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=98 ttl=64 时间=0.069 毫秒
+
+Level 25:mininet:
+--- 10.0.0.16 ping 统计 ---
+已发送 98 个包， 已接收 37 个包, 62.2449% 包丢失, 耗时 99304 毫秒
+rtt min/avg/max/mdev = 0.053/366.534/4759.614/1068.987 ms,  管道 5
+
+Level 25:mininet:
+Level 25:mininet:PING 10.0.0.16 (10.0.0.16) 56(84) bytes of data.
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=1 ttl=64 时间=3193 毫秒
+64 比特，来自 10.0.0.16: icmp_seq=2 ttl=64 时间=2174 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=3 ttl=64 时间=1150 毫秒
+64 比特，来自 10.0.0.16: icmp_seq=4 ttl=64 时间=126 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=5 ttl=64 时间=0.085 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=6 ttl=64 时间=0.175 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=7 ttl=64 时间=0.105 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.16: icmp_seq=8 ttl=64 时间=0.181 毫秒
+
+Level 25:mininet:
+--- 10.0.0.16 ping 统计 ---
+已发送 8 个包， 已接收 8 个包, 0% 包丢失, 耗时 7132 毫秒
+rtt min/avg/max/mdev = 0.085/830.448/3192.680/1158.749 ms,  管道 4
+
+INFO:mininet:*** Stopping 1 controllers
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 48 links
+
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:
+
+INFO:mininet:*** Stopping 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 16 hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Done
+
+INFO:mininet:*** Creating network
+
+INFO:mininet:*** Adding hosts:
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Adding switches:
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+*** Adding links:
+
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2008) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h001) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h002) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h003) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h004) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h005) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h006) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h007) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h009) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h010) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h011) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h012) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h013) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h014) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h015) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h016) 
+INFO:mininet:
+
+INFO:mininet:*** Configuring hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+
+WARNING:mininet:Unable to contact the remote controller at 127.0.0.1:6633
+
+INFO:mininet:*** Starting controller
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Starting 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:...
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:
+
+INFO:mininet:*** Starting CLI:
+
+INFO:mininet:*** Stopping 1 controllers
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 48 links
+
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:
+
+INFO:mininet:*** Stopping 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 16 hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Done
+
+INFO:mininet:*** Creating network
+
+INFO:mininet:*** Adding hosts:
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Adding switches:
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+*** Adding links:
+
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1001, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2001) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2003) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2005) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1002, s2007) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1003, s2008) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2002) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2004) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2006) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(s1004, s2008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2001, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3001) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2002, s3002) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2003, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3003) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2004, s3004) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2005, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3005) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2006, s3006) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2007, s3008) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3007) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(s2008, s3008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h001) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3001, h002) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h003) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3002, h004) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h005) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3003, h006) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h007) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3004, h008) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h009) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3005, h010) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h011) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3006, h012) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h013) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3007, h014) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h015) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(s3008, h016) 
+INFO:mininet:
+
+INFO:mininet:*** Configuring hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+
+WARNING:mininet:Unable to contact the remote controller at 127.0.0.1:6633
+
+INFO:mininet:*** Starting controller
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Starting 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:...
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.20Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.10Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:(0.05Mbit) 
+INFO:mininet:
+
+INFO:mininet:*** Starting CLI:
+
+Level 25:mininet:<Host h001: h001-eth0:10.0.0.1 pid=138939> 
+
+Level 25:mininet:<Host h002: h002-eth0:10.0.0.2 pid=138941> 
+
+Level 25:mininet:<Host h003: h003-eth0:10.0.0.3 pid=138943> 
+
+Level 25:mininet:<Host h004: h004-eth0:10.0.0.4 pid=138945> 
+
+Level 25:mininet:<Host h005: h005-eth0:10.0.0.5 pid=138947> 
+
+Level 25:mininet:<Host h006: h006-eth0:10.0.0.6 pid=138949> 
+
+Level 25:mininet:<Host h007: h007-eth0:10.0.0.7 pid=138951> 
+
+Level 25:mininet:<Host h008: h008-eth0:10.0.0.8 pid=138953> 
+
+Level 25:mininet:<Host h009: h009-eth0:10.0.0.9 pid=138955> 
+
+Level 25:mininet:<Host h010: h010-eth0:10.0.0.10 pid=138957> 
+
+Level 25:mininet:<Host h011: h011-eth0:10.0.0.11 pid=138959> 
+
+Level 25:mininet:<Host h012: h012-eth0:10.0.0.12 pid=138961> 
+
+Level 25:mininet:<Host h013: h013-eth0:10.0.0.13 pid=138963> 
+
+Level 25:mininet:<Host h014: h014-eth0:10.0.0.14 pid=138965> 
+
+Level 25:mininet:<Host h015: h015-eth0:10.0.0.15 pid=138967> 
+
+Level 25:mininet:<Host h016: h016-eth0:10.0.0.16 pid=138969> 
+
+Level 25:mininet:<OVSSwitch s1001: lo:127.0.0.1,s1001-eth1:None,s1001-eth2:None,s1001-eth3:None,s1001-eth4:None pid=138974> 
+
+Level 25:mininet:<OVSSwitch s1002: lo:127.0.0.1,s1002-eth1:None,s1002-eth2:None,s1002-eth3:None,s1002-eth4:None pid=138977> 
+
+Level 25:mininet:<OVSSwitch s1003: lo:127.0.0.1,s1003-eth1:None,s1003-eth2:None,s1003-eth3:None,s1003-eth4:None pid=138980> 
+
+Level 25:mininet:<OVSSwitch s1004: lo:127.0.0.1,s1004-eth1:None,s1004-eth2:None,s1004-eth3:None,s1004-eth4:None pid=138983> 
+
+Level 25:mininet:<OVSSwitch s2001: lo:127.0.0.1,s2001-eth1:None,s2001-eth2:None,s2001-eth3:None,s2001-eth4:None pid=138986> 
+
+Level 25:mininet:<OVSSwitch s2002: lo:127.0.0.1,s2002-eth1:None,s2002-eth2:None,s2002-eth3:None,s2002-eth4:None pid=138989> 
+
+Level 25:mininet:<OVSSwitch s2003: lo:127.0.0.1,s2003-eth1:None,s2003-eth2:None,s2003-eth3:None,s2003-eth4:None pid=138992> 
+
+Level 25:mininet:<OVSSwitch s2004: lo:127.0.0.1,s2004-eth1:None,s2004-eth2:None,s2004-eth3:None,s2004-eth4:None pid=138995> 
+
+Level 25:mininet:<OVSSwitch s2005: lo:127.0.0.1,s2005-eth1:None,s2005-eth2:None,s2005-eth3:None,s2005-eth4:None pid=138998> 
+
+Level 25:mininet:<OVSSwitch s2006: lo:127.0.0.1,s2006-eth1:None,s2006-eth2:None,s2006-eth3:None,s2006-eth4:None pid=139001> 
+
+Level 25:mininet:<OVSSwitch s2007: lo:127.0.0.1,s2007-eth1:None,s2007-eth2:None,s2007-eth3:None,s2007-eth4:None pid=139004> 
+
+Level 25:mininet:<OVSSwitch s2008: lo:127.0.0.1,s2008-eth1:None,s2008-eth2:None,s2008-eth3:None,s2008-eth4:None pid=139007> 
+
+Level 25:mininet:<OVSSwitch s3001: lo:127.0.0.1,s3001-eth1:None,s3001-eth2:None,s3001-eth3:None,s3001-eth4:None pid=139010> 
+
+Level 25:mininet:<OVSSwitch s3002: lo:127.0.0.1,s3002-eth1:None,s3002-eth2:None,s3002-eth3:None,s3002-eth4:None pid=139013> 
+
+Level 25:mininet:<OVSSwitch s3003: lo:127.0.0.1,s3003-eth1:None,s3003-eth2:None,s3003-eth3:None,s3003-eth4:None pid=139016> 
+
+Level 25:mininet:<OVSSwitch s3004: lo:127.0.0.1,s3004-eth1:None,s3004-eth2:None,s3004-eth3:None,s3004-eth4:None pid=139019> 
+
+Level 25:mininet:<OVSSwitch s3005: lo:127.0.0.1,s3005-eth1:None,s3005-eth2:None,s3005-eth3:None,s3005-eth4:None pid=139022> 
+
+Level 25:mininet:<OVSSwitch s3006: lo:127.0.0.1,s3006-eth1:None,s3006-eth2:None,s3006-eth3:None,s3006-eth4:None pid=139025> 
+
+Level 25:mininet:<OVSSwitch s3007: lo:127.0.0.1,s3007-eth1:None,s3007-eth2:None,s3007-eth3:None,s3007-eth4:None pid=139028> 
+
+Level 25:mininet:<OVSSwitch s3008: lo:127.0.0.1,s3008-eth1:None,s3008-eth2:None,s3008-eth3:None,s3008-eth4:None pid=139031> 
+
+Level 25:mininet:<RemoteController controller: 127.0.0.1:6633 pid=139798> 
+
+Level 25:mininet:PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=2 ttl=64 时间=2279 毫秒
+64 比特，来自 10.0.0.5: icmp_seq=1 ttl=64 时间=3282 毫秒
+64 比特，来自 10.0.0.5: icmp_seq=3 ttl=64 时间=1255 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=4 ttl=64 时间=231 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=5 ttl=64 时间=0.073 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=6 ttl=64 时间=0.104 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=7 ttl=64 时间=0.071 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=8 ttl=64 时间=0.114 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=9 ttl=64 时间=0.075 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=10 ttl=64 时间=0.078 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=11 ttl=64 时间=0.078 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=12 ttl=64 时间=0.077 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=13 ttl=64 时间=0.117 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=14 ttl=64 时间=0.162 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=15 ttl=64 时间=0.071 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=16 ttl=64 时间=0.058 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=17 ttl=64 时间=0.091 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=18 ttl=64 时间=0.117 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=19 ttl=64 时间=0.063 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=20 ttl=64 时间=0.068 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=21 ttl=64 时间=0.069 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=22 ttl=64 时间=0.074 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=23 ttl=64 时间=0.081 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=24 ttl=64 时间=0.101 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=25 ttl=64 时间=0.060 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=26 ttl=64 时间=0.066 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=27 ttl=64 时间=0.072 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=28 ttl=64 时间=0.079 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=29 ttl=64 时间=0.066 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=30 ttl=64 时间=0.138 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=31 ttl=64 时间=0.097 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=32 ttl=64 时间=0.059 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=33 ttl=64 时间=0.087 毫秒
+
+Level 25:mininet:64 比特，来自 10.0.0.5: icmp_seq=34 ttl=64 时间=0.071 毫秒
+
+Level 25:mininet:
+--- 10.0.0.5 ping 统计 ---
+已发送 34 个包， 已接收 34 个包, 0% 包丢失, 耗时 33739 毫秒
+rtt min/avg/max/mdev = 0.058/207.336/3281.554/688.776 ms,  管道 4
+
+Level 25:mininet:
+Level 25:mininet:lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (本地环回)
+        RX packets 710977  bytes 88642337 (88.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 710977  bytes 88642337 (88.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1001-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::c9a:edff:feea:87f0  prefixlen 64  scopeid 0x20<link>
+        ether 0e:9a:ed:ea:87:f0  txqueuelen 1000  (以太网)
+        RX packets 213  bytes 15736 (15.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1001-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::54b6:dfff:fee0:c1b2  prefixlen 64  scopeid 0x20<link>
+        ether 56:b6:df:e0:c1:b2  txqueuelen 
+Level 25:mininet:1000  (以太网)
+        RX packets 178  bytes 12362 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 215  bytes 15820 (15.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1001-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::dc4a:7bff:fe3a:56  prefixlen 64  scopeid 0x20<link>
+        ether de:4a:7b:3a:00:56  txqueuelen 1000  (以太网)
+        RX packets 177  bytes 12320 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1001-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::945a:eaff:fe95:40bc  prefixlen 64  scopeid 0x20<link>
+        ether 96:5a:ea:95:40:bc  txqueuelen 1000  (以太网)
+        RX packets 177  bytes 12320 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 
+Level 25:mininet:0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1002-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::8d3:b5ff:fe39:e5b6  prefixlen 64  scopeid 0x20<link>
+        ether 0a:d3:b5:39:e5:b6  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1002-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::5c50:47ff:fe06:4b38  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether 5e:50:47:06:4b:38  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12297 (12.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1002-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::f89f:c5ff:fe3d:d7a3  prefixlen 64  scopeid 0x20<link>
+        ether fa:9f:c5:3d:d7:a3  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12362 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1002-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::4c19:38ff:fead:7b9f  prefixlen 64  scopeid 0x20<link>
+        ether 4e:19:38:ad:7b:9f  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12362 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 
+Level 25:mininet:181  bytes 12506 (12.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1003-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::e4:abff:fe5f:ec06  prefixlen 64  scopeid 0x20<link>
+        ether 02:e4:ab:5f:ec:06  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 218  bytes 15946 (15.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1003-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::945b:f6ff:fec4:f337  prefixlen 64  scopeid 0x20<link>
+        ether 96:5b:f6:c4:f3:37  txqueuelen 1000  (以太网)
+        RX packets 216  bytes 15862 (15.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1003-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::
+Level 25:mininet:742a:b4ff:feee:338a  prefixlen 64  scopeid 0x20<link>
+        ether 76:2a:b4:ee:33:8a  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12362 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1003-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::2cdf:8cff:fe80:cf37  prefixlen 64  scopeid 0x20<link>
+        ether 2e:df:8c:80:cf:37  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12362 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12399 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1004-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::90ba:5ff:fe00:3d0e  prefixlen 64  scopeid 0x20<link>
+        ether 92:ba:05:00:3d:0e  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 
+Level 25:mininet:0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1004-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::60d2:63ff:fe10:a689  prefixlen 64  scopeid 0x20<link>
+        ether 62:d2:63:10:a6:89  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12362 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1004-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::dcf0:bfff:febe:e467  prefixlen 64  scopeid 0x20<link>
+        ether de:f0:bf:be:e4:67  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1004-eth4: flags=4163<UP,BROA
+Level 25:mininet:DCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::607e:cfff:fed5:a01f  prefixlen 64  scopeid 0x20<link>
+        ether 62:7e:cf:d5:a0:1f  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2001-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::7097:59ff:febe:3297  prefixlen 64  scopeid 0x20<link>
+        ether 72:97:59:be:32:97  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+
+Level 25:mininet:        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 213  bytes 15736 (15.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2001-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::2044:85ff:fe0b:304d  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether 22:44:85:0b:30:4d  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2001-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::d8b6:2aff:fe15:b2bf  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether da:b6:2a:15:b2:bf  txqueuelen 1000  (以太网)
+        RX packets 214  bytes 15778 (15.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2001-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::3883:6eff:fe41:26f4  prefixlen 64  scopeid 0x20<link>
+        ether 3a:83:6e:41:26:f4  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12362 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2002-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::e4f2:1aff:fe1d:78ca  prefixlen 64  scopeid 0x20<link>
+        ether e6:f2:1a:1d:78:ca  txqueuelen 1000  (以太网)
+        RX packets 218  bytes 15946 (15.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2002-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::8c6d:bfff:fe40:4e99  prefixlen 64  scopeid 0x20<link>
+        ether 8e:6d:bf:40:4e:99  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2002-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::a41a:c8ff:fe7c:32f3  prefixlen 64  scopeid 0x20<link>
+        ether a6:1a:c8:7c:32:f3  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12362 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 217  bytes 15904 (15.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2002-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::7c5d:b4ff:fe31:d8dc  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether 7e:5d:b4:31:d8:dc  txqueuelen 1000  (以太网)
+        RX packets 177  bytes 12320 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2003-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::d80b:cfff:fe57:7faa  prefixlen 64  scopeid 0x20<link>
+        ether da:0b:cf:57:7f:aa  txqueuelen 1000  (以太网)
+        RX packets 215  bytes 15820 (15.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12362 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2003-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::c7d:64ff:fedd:5b5a  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether 0e:7d:64:dd:5b:5a  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12297 (12.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2003-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::600f:34ff:fe47:571c  prefixlen 64  scopeid 0x20<link>
+        ether 62:0f:34:47:57:1c  txqueuelen 1000  (以太网)
+        RX packets 177  bytes 12320 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 217  bytes 15922 (15.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2003-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::e8df:cbff:fe7a:af74  prefixlen 64  scopeid 0x20<link>
+        ether ea:df:cb:7a:af:74  txqueuelen 1000  (以太网)
+
+Level 25:mininet:        RX packets 176  bytes 12278 (12.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 181  bytes 12506 (12.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2004-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::b003:baff:fe6c:4d4b  prefixlen 64  scopeid 0x20<link>
+        ether b2:03:ba:6c:4d:4b  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 216  bytes 15862 (15.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+Level 25:mininet:s2004-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::1415:6eff:feab:3a28  prefixlen 64  scopeid 0x20<link>
+        ether 16:15:6e:ab:3a:28  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+
+Level 25:mininet:        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12362 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2004-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::80d1:b7ff:fec8:ea95  prefixlen 64  scopeid 0x20<link>
+        ether 82:d1:b7:c8:ea:95  txqueuelen 1000  (以太网)
+        RX packets 217  bytes 15904 (15.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12380 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2004-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::f82c:84ff:fe62:e46f  prefixlen 64  scopeid 0x20<link>
+        ether fa:2c:84:62:e4:6f  txqueuelen 1000  (以太网)
+        RX packets 177  bytes 12320 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12380 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2005-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::3c45:59ff:fee8:28dc  prefixlen 64  scopeid 0x20<link>
+        ether 3e:45:59:e8:28:dc  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 177  bytes 12320 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2005-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::7807:8bff:fe9f:8cc5  prefixlen 64  scopeid 0x20<link>
+        ether 7a:07:8b:9f:8c:c5  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12362 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2005-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::38f5:b5ff:fefb:cf17  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether 3a:f5:b5:fb:cf:17  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12422 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2005-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::c4b9:3aff:fefc:7a45  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether c6:b9:3a:fc:7a:45  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12362 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 181  bytes 12506 (12.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2006-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::9005:c5ff:fe2a:76f0  prefixlen 64  scopeid 0x20<link>
+        ether 92:05:c5:2a:76:f0  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12362 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2006-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::4c87:f4ff:feb9:a725  prefixlen 64  scopeid 0x20<link>
+        ether 4e:87:f4:b9:a7:25  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+Level 25:mininet:
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2006-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::e46f:95ff:fe5d:df04  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether e6:6f:95:5d:df:04  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12380 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2006-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::bcc4:17ff:feb7:2b4d  prefixlen 64  scopeid 0x20<link>
+        ether be:c4:17:b7:2b:4d  txqueuelen 1000  (以太网)
+        RX packets 176  bytes 12230 (12.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12464 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+Level 25:mininet:s2007-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::bc3e:abff:feb8:d8f0  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether be:3e:ab:b8:d8:f0  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 177  bytes 12320 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2007-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::a4e3:8cff:fe36:b25a  prefixlen 64  scopeid 0x20<link>
+        ether a6:e3:8c:36:b2:5a  txqueuelen 1000  (以太网)
+        RX packets 181  bytes 12506 (12.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12362 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+Level 25:mininet:s2007-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::888:6ff:fe9a:351f  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether 0a:88:06:9a:35:1f  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12380 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2007-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::2ce3:efff:fef9:e886  prefixlen 64  scopeid 0x20<link>
+        ether 2e:e3:ef:f9:e8:86  txqueuelen 1000  (以太网)
+        RX packets 177  bytes 12320 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12446 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2008-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::c423:29ff:fe65:5775  prefixlen 64  scopeid 0x20<link>
+        ether c6:23:29:65:57:75  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12399 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12362 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2008-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::d0af:41ff:fea3:2e70  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether d2:af:41:a3:2e:70  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2008-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::6c17:e9ff:fe6b:9d82  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether 6e:17:e9:6b:9d:82  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12422 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2008-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::a0d1:f9ff:feee:6ec5  prefixlen 64  scopeid 0x20<link>
+        ether a2:d1:f9:ee:6e:c5  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12362 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12404 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+Level 25:mininet:s3001-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::9438:10ff:fe48:1ce8  prefixlen 64  scopeid 0x20<link>
+        ether 96:38:10:48:1c:e8  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 214  bytes 15778 (15.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+Level 25:mininet:s3001-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::7c16:95ff:fe96:aa83  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether 7e:16:95:96:aa:83  txqueuelen 1000  (以太网)
+        RX packets 217  bytes 15904 (15.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12362 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3001-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::804f:5aff:fe6b:d100  prefixlen 64  scopeid 0x20<link>
+        ether 82:4f:5a:6b:d1:00  txqueuelen 1000  (以太网)
+        RX packets 52  bytes 4680 (4.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 222  bytes 16162 (16.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3001-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::944d:26ff:fe0d:67b7  prefixlen 64  scopeid 0x20<link>
+        ether 96:4d:26:0d:67:b7  txqueuelen 1000  (以太网)
+        RX packets 16  bytes 1312 (1.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 181  bytes 12536 (12.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3002-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::1c35:11ff:fe8a:c331  prefixlen 64  scopeid 0x20<link>
+        ether 1e:35:11:8a:c3:31  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+   
+Level 25:mininet:     RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12362 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3002-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::c8a:9aff:fea0:48dd  prefixlen 64  scopeid 0x20<link>
+        ether 0e:8a:9a:a0:48:dd  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 177  bytes 12320 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3002-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::68f3:bfff:feae:503f  prefixlen 64  scopeid 0x20<link>
+        ether 6a:f3:bf:ae:50:3f  txqueuelen 1000  (以太网)
+        RX packets 16  bytes 1312 (1.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 182  bytes 12626 (12.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3002-eth4: flags=4
+Level 25:mininet:163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::28f2:ceff:fe20:c495  prefixlen 64  scopeid 0x20<link>
+        ether 2a:f2:ce:20:c4:95  txqueuelen 1000  (以太网)
+        RX packets 16  bytes 1312 (1.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12466 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3003-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::f461:69ff:fe91:e27e  prefixlen 64  scopeid 0x20<link>
+        ether f6:61:69:91:e2:7e  txqueuelen 1000  (以太网)
+        RX packets 217  bytes 15922 (15.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 177  bytes 12320 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3003-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::9c17:79ff:fe6d:c371  prefixlen 64  scopeid 0x20<link>
+        ether 9e:17:79:6d:c3:71  txqueuelen 1000  (以太网)
+
+Level 25:mininet:        RX packets 178  bytes 12380 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 217  bytes 15904 (15.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3003-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::a0d3:78ff:fe62:13bf  prefixlen 64  scopeid 0x20<link>
+        ether a2:d3:78:62:13:bf  txqueuelen 1000  (以太网)
+        RX packets 52  bytes 4680 (4.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 215  bytes 15868 (15.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+Level 25:mininet:s3003-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::145f:7dff:fea2:9add  prefixlen 64  scopeid 0x20<link>
+        ether 16:5f:7d:a2:9a:dd  txqueuelen 1000  (以太网)
+        RX packets 14  bytes 1136 (1.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 180  bytes 12494 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3004-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::445d:cff:fefc:fdff  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether 46:5d:0c:fc:fd:ff  txqueuelen 1000  (以太网)
+        RX packets 181  bytes 12506 (12.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 176  bytes 12278 (12.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3004-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+
+Level 25:mininet:        inet6 fe80::f837:1aff:fe20:5c97  prefixlen 64  scopeid 0x20<link>
+        ether fa:37:1a:20:5c:97  txqueuelen 1000  (以太网)
+        RX packets 178  bytes 12380 (12.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 177  bytes 12320 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+Level 25:mininet:s3004-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::1854:39ff:fe1e:6671  prefixlen 64  scopeid 0x20<link>
+
+Level 25:mininet:        ether 1a:54:39:1e:66:71  txqueuelen 1000  (以太网)
+        RX packets 16  bytes 1312 (1.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12452 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3004-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::3c9f:23ff:fec9:1b5d  prefixlen 64  scopeid 0x20<link>
+        ether 3e:9f:23:c9:1b:5d  txqueuelen 1000  (以太网)
+        RX packets 15  bytes 1222 (1.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12452 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3005-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::c49f:d9ff:fe4a:e1b6  prefixlen 64  scopeid 0x20<link>
+        ether c6:9f:d9:4a:e1:b6  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  b
+Level 25:mininet:ytes 12422 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3005-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::5c04:50ff:fe1f:15a  prefixlen 64  scopeid 0x20<link>
+        ether 5e:04:50:1f:01:5a  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12380 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3005-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::fcc1:b5ff:fe8c:e3a7  prefixlen 64  scopeid 0x20<link>
+        ether fe:c1:b5:8c:e3:a7  txqueuelen 1000  (以太网)
+        RX packets 15  bytes 1226 (1.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 182  bytes 12626 (12.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3005-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::80d5:cff
+Level 25:mininet::fe52:1e56  prefixlen 64  scopeid 0x20<link>
+        ether 82:d5:0c:52:1e:56  txqueuelen 1000  (以太网)
+        RX packets 14  bytes 1136 (1.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 181  bytes 12536 (12.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3006-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::18f2:23ff:fe01:3ad1  prefixlen 64  scopeid 0x20<link>
+        ether 1a:f2:23:01:3a:d1  txqueuelen 1000  (以太网)
+        RX packets 181  bytes 12506 (12.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12362 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3006-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::809c:7fff:feb4:b0bf  prefixlen 64  scopeid 0x20<link>
+        ether 82:9c:7f:b4:b0:bf  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12464 (12.4 KB)
+        RX errors 0  dropped 
+Level 25:mininet:0  overruns 0  frame 0
+        TX packets 176  bytes 12230 (12.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3006-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b098:7dff:fe86:7adf  prefixlen 64  scopeid 0x20<link>
+        ether b2:98:7d:86:7a:df  txqueuelen 1000  (以太网)
+        RX packets 14  bytes 1132 (1.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 182  bytes 12626 (12.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3006-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::1839:dff:feca:3841  prefixlen 64  scopeid 0x20<link>
+        ether 1a:39:0d:ca:38:41  txqueuelen 1000  (以太网)
+        RX packets 15  bytes 1222 (1.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 181  bytes 12536 (12.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3007-eth1: flags=4163<UP,BROADCAST,RUNNING,MULT
+Level 25:mininet:ICAST>  mtu 1500
+        inet6 fe80::e400:33ff:fe67:7666  prefixlen 64  scopeid 0x20<link>
+        ether e6:00:33:67:76:66  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12380 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3007-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::20ea:2eff:fefc:c2f4  prefixlen 64  scopeid 0x20<link>
+        ether 22:ea:2e:fc:c2:f4  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 179  bytes 12422 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3007-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b407:16ff:fe15:1ab4  prefixlen 64  scopeid 0x20<link>
+        ether b6:07:16:15:1a:b4  txqueuelen 1000  (以太网)
+        RX packets 15  byt
+Level 25:mininet:es 1222 (1.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 181  bytes 12536 (12.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3007-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::1877:feff:fe02:7444  prefixlen 64  scopeid 0x20<link>
+        ether 1a:77:fe:02:74:44  txqueuelen 1000  (以太网)
+        RX packets 14  bytes 1136 (1.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 181  bytes 12536 (12.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3008-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::d894:fcff:fecd:37a3  prefixlen 64  scopeid 0x20<link>
+        ether da:94:fc:cd:37:a3  txqueuelen 1000  (以太网)
+        RX packets 180  bytes 12446 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 177  bytes 12320 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+Level 25:mininet:
+
+s3008-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::a4c1:78ff:fe0b:a72f  prefixlen 64  scopeid 0x20<link>
+        ether a6:c1:78:0b:a7:2f  txqueuelen 1000  (以太网)
+        RX packets 179  bytes 12404 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 12362 (12.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3008-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::5046:edff:fe34:fdc0  prefixlen 64  scopeid 0x20<link>
+        ether 52:46:ed:34:fd:c0  txqueuelen 1000  (以太网)
+        RX packets 15  bytes 1226 (1.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 181  bytes 12536 (12.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3008-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::a080:97ff:fe50:9580  prefixlen 64  scopeid 0x20<link>
+        ether a2:80:97:50:95:80  txqueuel
+Level 25:mininet:en 1000  (以太网)
+        RX packets 14  bytes 1136 (1.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 181  bytes 12536 (12.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+Level 25:mininet:*** s1001 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s1001: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s1001.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s1001.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|vconn|DBG|unix:/var/run/openvswitch/s1001.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1072):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00009|vconn|WARN|unix:/var/run/openvswitch/s1001.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00010|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00011|vconn|DBG|unix:/var/run/openvswitch/s1001.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s1001: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s1002 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s1002: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s1002.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s1002.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 4 (<->/var/run/openvswitch/s1002.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s1002.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1073):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s1002.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s1002.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s1002: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s1003 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s1003: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s1003.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s1003.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 4 (<->/var/run/openvswitch/s1003.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s1003.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1074):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s1003.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s1003.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s1003: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s1004 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s1004: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s1004.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s1004.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN] on fd 4 (<->/var/run/openvswitch/s1004.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s1004.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1075):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s1004.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s1004.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s1004: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s2001 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s2001: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s2001.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s2001.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN] on fd 4 (<->/var/run/openvswitch/s2001.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s2001.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1076):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s2001.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s2001.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s2001: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s2002 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s2002: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s2002.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s2002.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN] on fd 4 (<->/var/run/openvswitch/s2002.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s2002.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1077):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s2002.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s2002.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s2002: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s2003 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s2003: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s2003.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s2003.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 4 (<->/var/run/openvswitch/s2003.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s2003.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1078):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s2003.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s2003.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s2003: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s2004 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s2004: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s2004.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s2004.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN] on fd 4 (<->/var/run/openvswitch/s2004.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s2004.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1079):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s2004.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s2004.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s2004: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s2005 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s2005: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s2005.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s2005.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 4 (<->/var/run/openvswitch/s2005.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s2005.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x107a):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s2005.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s2005.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s2005: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s2006 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s2006: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s2006.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s2006.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN] on fd 4 (<->/var/run/openvswitch/s2006.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s2006.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x107b):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s2006.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s2006.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s2006: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s2007 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s2007: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s2007.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s2007.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 4 (<->/var/run/openvswitch/s2007.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s2007.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x107c):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s2007.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s2007.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s2007: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s2008 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s2008: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s2008.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s2008.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN] on fd 4 (<->/var/run/openvswitch/s2008.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s2008.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x107d):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s2008.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s2008.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s2008: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s3001 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s3001: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s3001.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s3001.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 4 (<->/var/run/openvswitch/s3001.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s3001.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x107e):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s3001.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s3001.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s3001: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s3002 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s3002: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s3002.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s3002.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN] on fd 4 (<->/var/run/openvswitch/s3002.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s3002.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x107f):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s3002.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s3002.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s3002: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s3003 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s3003: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s3003.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s3003.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 4 (<->/var/run/openvswitch/s3003.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s3003.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1080):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s3003.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s3003.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s3003: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s3004 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s3004: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s3004.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s3004.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN] on fd 4 (<->/var/run/openvswitch/s3004.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s3004.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1081):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s3004.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s3004.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s3004: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s3005 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s3005: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s3005.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s3005.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN] on fd 4 (<->/var/run/openvswitch/s3005.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s3005.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1082):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s3005.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s3005.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s3005: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s3006 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s3006: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s3006.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s3006.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 4 (<->/var/run/openvswitch/s3006.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s3006.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1083):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s3006.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s3006.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s3006: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s3007 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s3007: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s3007.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s3007.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN] on fd 4 (<->/var/run/openvswitch/s3007.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s3007.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1084):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s3007.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s3007.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s3007: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:*** s3008 ------------------------------------------------------------------------
+
+Level 25:mininet:2022-02-28T15:18:17Z|00001|stream_unix|DBG|/var/run/openvswitch/s3008: connection failed (No such file or directory)
+2022-02-28T15:18:17Z|00002|ofctl|DBG|connecting to unix:/var/run/openvswitch/s3008.mgmt
+2022-02-28T15:18:17Z|00003|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (128 nodes total across 128 buckets)
+2022-02-28T15:18:17Z|00004|hmap|DBG|../lib/ofp-msgs.c:1381: 1 bucket with 6+ nodes, including 1 bucket with 6 nodes (256 nodes total across 256 buckets)
+2022-02-28T15:18:17Z|00005|hmap|DBG|../lib/ofp-msgs.c:1381: 4 buckets with 6+ nodes, including 1 bucket with 8 nodes (512 nodes total across 512 buckets)
+2022-02-28T15:18:17Z|00006|hmap|DBG|../lib/ofp-msgs.c:1381: 8 buckets with 6+ nodes, including 2 buckets with 7 nodes (1024 nodes total across 1024 buckets)
+2022-02-28T15:18:17Z|00007|vconn|DBG|unix:/var/run/openvswitch/s3008.mgmt: sent (Success): OFPT_HELLO (xid=0x1):
+ version bitmap: 0x01
+2022-02-28T15:18:17Z|00008|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 4 (<->/var/run/openvswitch/s3008.mgmt) at ../lib/stream-fd.c:157
+2022-02-28T15:18:17Z|00009|vconn|DBG|unix:/var/run/openvswitch/s3008.mgmt: received: OFPT_HELLO (OF1.3) (xid=0x1085):
+ version bitmap: 0x04
+2022-02-28T15:18:17Z|00010|vconn|WARN|unix:/var/run/openvswitch/s3008.mgmt: version negotiation failed (we support version 0x01, peer supports version 0x04)
+2022-02-28T15:18:17Z|00011|stream_fd|DBG|send: Broken pipe
+2022-02-28T15:18:17Z|00012|vconn|DBG|unix:/var/run/openvswitch/s3008.mgmt: sent (Broken pipe): OFPT_ERROR (OF1.3) (xid=0x0): OFPHFC_INCOMPATIBLE
+We support version 0x01, you support version 0x04, no common versions.
+ovs-ofctl: s3008: failed to connect to socket (Broken pipe)
+
+Level 25:mininet:h001: h001-eth0
+
+Level 25:mininet:h002: h002-eth0
+
+Level 25:mininet:h003: h003-eth0
+
+Level 25:mininet:h004: h004-eth0
+
+Level 25:mininet:h005: h005-eth0
+
+Level 25:mininet:h006: h006-eth0
+
+Level 25:mininet:h007: h007-eth0
+
+Level 25:mininet:h008: h008-eth0
+
+Level 25:mininet:h009: h009-eth0
+
+Level 25:mininet:h010: h010-eth0
+
+Level 25:mininet:h011: h011-eth0
+
+Level 25:mininet:h012: h012-eth0
+
+Level 25:mininet:h013: h013-eth0
+
+Level 25:mininet:h014: h014-eth0
+
+Level 25:mininet:h015: h015-eth0
+
+Level 25:mininet:h016: h016-eth0
+
+Level 25:mininet:s1001: lo,s1001-eth1,s1001-eth2,s1001-eth3,s1001-eth4
+
+Level 25:mininet:s1002: lo,s1002-eth1,s1002-eth2,s1002-eth3,s1002-eth4
+
+Level 25:mininet:s1003: lo,s1003-eth1,s1003-eth2,s1003-eth3,s1003-eth4
+
+Level 25:mininet:s1004: lo,s1004-eth1,s1004-eth2,s1004-eth3,s1004-eth4
+
+Level 25:mininet:s2001: lo,s2001-eth1,s2001-eth2,s2001-eth3,s2001-eth4
+
+Level 25:mininet:s2002: lo,s2002-eth1,s2002-eth2,s2002-eth3,s2002-eth4
+
+Level 25:mininet:s2003: lo,s2003-eth1,s2003-eth2,s2003-eth3,s2003-eth4
+
+Level 25:mininet:s2004: lo,s2004-eth1,s2004-eth2,s2004-eth3,s2004-eth4
+
+Level 25:mininet:s2005: lo,s2005-eth1,s2005-eth2,s2005-eth3,s2005-eth4
+
+Level 25:mininet:s2006: lo,s2006-eth1,s2006-eth2,s2006-eth3,s2006-eth4
+
+Level 25:mininet:s2007: lo,s2007-eth1,s2007-eth2,s2007-eth3,s2007-eth4
+
+Level 25:mininet:s2008: lo,s2008-eth1,s2008-eth2,s2008-eth3,s2008-eth4
+
+Level 25:mininet:s3001: lo,s3001-eth1,s3001-eth2,s3001-eth3,s3001-eth4
+
+Level 25:mininet:s3002: lo,s3002-eth1,s3002-eth2,s3002-eth3,s3002-eth4
+
+Level 25:mininet:s3003: lo,s3003-eth1,s3003-eth2,s3003-eth3,s3003-eth4
+
+Level 25:mininet:s3004: lo,s3004-eth1,s3004-eth2,s3004-eth3,s3004-eth4
+
+Level 25:mininet:s3005: lo,s3005-eth1,s3005-eth2,s3005-eth3,s3005-eth4
+
+Level 25:mininet:s3006: lo,s3006-eth1,s3006-eth2,s3006-eth3,s3006-eth4
+
+Level 25:mininet:s3007: lo,s3007-eth1,s3007-eth2,s3007-eth3,s3007-eth4
+
+Level 25:mininet:s3008: lo,s3008-eth1,s3008-eth2,s3008-eth3,s3008-eth4
+
+Level 25:mininet:controller: 
+
+INFO:mininet:*** Stopping 1 controllers
+
+INFO:mininet:controller 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 48 links
+
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:
+
+INFO:mininet:*** Stopping 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 16 hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Done
+

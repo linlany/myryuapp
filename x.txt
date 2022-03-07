@@ -1,0 +1,6 @@
+sudo mn --topo=mytopo --controller=remote,ip=127.0.0.1,port=6633 --mac --custom /home/ling/文档/mySwitch/fatTree.py --link tc
+ryu-manager  monitor.py --observe-links
+
+ dpctl show -v
+> intfs
+ovs-ofctl -O OpenFlow13 show
