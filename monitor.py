@@ -1,4 +1,6 @@
 import time
+from itertools import islice
+import random
 
 from ryu.base import app_manager
 from ryu.ofproto import ofproto_v1_3
@@ -14,14 +16,16 @@ from ryu.topology.api import get_switch, get_link
 import networkx as nx
 from ryu.lib import hub
 from ryu.lib import mac
-from ryu.lib.packet import ipv6
+from ryu.lib.packet import ipv6, ipv4
 from ryu.topology.switches import Switches
 from ryu.topology.switches import LLDPPacket
 from ryu.base.app_manager import lookup_service_brick
 import matplotlib.pyplot as plt
+from setting import BandWidth
 
-waite_time = 10
+waite_time = 3
 echo_request_break_time = 0.05
+max_bw = BandWidth
 
 
 class MySwitch(app_manager.RyuApp):
@@ -29,6 +33,9 @@ class MySwitch(app_manager.RyuApp):
 
     def __init__(self, *args, **kwargs):
         super(MySwitch, self).__init__(*args, **kwargs)
+        self.group_ids = []
+        self.temp_flow_stat = {}
+        self.flow_speed = {}
         self.switch_module = lookup_service_brick('switches')
         self.topology_api_app = self
         self.net = nx.DiGraph()
@@ -37,13 +44,16 @@ class MySwitch(app_manager.RyuApp):
         self.switch_state = {}
         self.temp_port_stat = {}
         self.arp_record = {}
-        self.K = 5
+        self.K = 4
         self.echo_delay = {}
         self.lldp_delay = {}
         self.link_delay = {}
-
+        # self.multi_group_ids = {}
+        self.id2dp = {}
+        self.elephant_flow = []
+        self.big_flow_number = 0
+        self.big_flowtable = []
         self.monitor_thread = hub.spawn(self.monitor)
-        pass
 
     def monitor(self):
         while True:
@@ -51,7 +61,6 @@ class MySwitch(app_manager.RyuApp):
             for dp in self.datapaths:
                 self.switch_state.setdefault(dp.id, {})
                 self.get_switch_stat(dp)
-
 
                 # refresh
                 for key in self.paths.keys():
@@ -61,7 +70,9 @@ class MySwitch(app_manager.RyuApp):
             # plt.show()
             self.get_delay()
             # self.logger.info(self.link_delay)
-            self.logger.info(self.switch_state)
+            # self.logger.info(self.switch_state)
+            self.elephant_flow_multi()
+            # self.reseted.clear()
             hub.sleep(waite_time)
         pass
 
@@ -91,7 +102,74 @@ class MySwitch(app_manager.RyuApp):
         dp.send_msg(req)
         req = parser.OFPPortStatsRequest(dp, 0, ofproto.OFPP_ANY)
         dp.send_msg(req)
+        req = parser.OFPFlowStatsRequest(dp)
+        dp.send_msg(req)
         pass
+
+    def elephant_flow_multi(self):
+        self.elephant_flow.clear()
+        self.big_flow_number = 0
+        self.big_flowtable.clear()
+        for flow in list(self.flow_speed.items()):
+            dp = flow[0][0]
+            dpid = dp.id
+            in_port = flow[0][1]
+            dst = flow[0][2]
+            src_mac = flow[0][4]
+            out_port = flow[0][3]
+            if flow[1] * 8 > 0.1 * max_bw * 1000000:
+                self.big_flow_number += 1
+                self.big_flowtable.append((dpid, out_port))
+            if flow[1] * 8 > 0.1 * max_bw * 1000000 and (src_mac, dst) not in self.elephant_flow:
+                self.elephant_flow.append((src_mac, dst))
+
+            pass
+
+    def install_path_flow(self, path):
+        for i in range(len(path) - 2, 0, -1):
+            last_hop = path[i - 1]
+            cur_dp = path[i]
+            next_hop = path[i + 1]
+            if i == 1:
+                in_port = self.net[cur_dp][last_hop]['attr_dict']['port']
+            else:
+                in_port = self.net[last_hop][cur_dp]['attr_dict']['port']
+            out_port = self.net[cur_dp][next_hop]['attr_dict']['port']
+            datapath = self.id2dp[cur_dp]
+            parser = datapath.ofproto_parser
+            actions = [parser.OFPActionOutput(out_port)]
+            match = parser.OFPMatch(in_port=in_port, eth_dst=path[-1], eth_src=path[0])
+            self.add_flow(datapath, 2, match, actions, idle_timeout=15, hard_timeout=60)
+        pass
+
+    # def generate_id(self):
+    #     n = random.randint(0, 2**32)
+    #     while n in self.group_ids:
+    #         n = random.randint(0, 2**32)
+    #     self.group_ids.append(n)
+    #     return n
+
+    @set_ev_cls(ofp_event.EventOFPFlowStatsReply, MAIN_DISPATCHER)
+    def flow_stats_reply_handler(self, ev):
+        msg = ev.msg
+        dp = msg.datapath
+        body = msg.body
+        for stat in sorted([flow for flow in body if flow.priority == 1],
+                           key=lambda flow: (flow.match.get('in_port'), flow.match.get('eth_dst'))):
+            if stat.instructions[0].actions[0].port or stat.instructions[0].actions[0].port == 0:
+                key = (dp, stat.match.get('in_port'), stat.match.get('eth_dst'), stat.instructions[0].actions[0].port,
+                       stat.match.get('eth_src'))
+                now_value = (stat.packet_count, stat.byte_count, stat.duration_sec, stat.duration_nsec)
+                self.temp_flow_stat.setdefault(key, ())
+                last = 0
+                period = waite_time
+                temp = self.temp_flow_stat[key]
+                if temp:
+                    last = temp[1]
+                    period = now_value[3] / 10 ** 9 + now_value[2] - temp[2] - temp[3] / 10 ** 9
+                self.temp_flow_stat[key] = now_value
+                speed = (now_value[1] - last) / period
+                self.flow_speed[key] = speed  # byte/s
 
     @set_ev_cls(ofp_event.EventOFPPortStatsReply, MAIN_DISPATCHER)
     def port_stats_reply_handler(self, ev):
@@ -109,9 +187,10 @@ class MySwitch(app_manager.RyuApp):
                     time = now[2] + now[3] / 10 ** 9 - temp[2] - temp[3] / 10 ** 9
                 speed = (now[0] + now[1] - last) / time
                 self.temp_port_stat[(dpid, port.port_no)] = now
-                self.switch_state[dpid][port.port_no]['free_bandwidth'] = \
-                    self.switch_state[dpid][port.port_no]['curr_speed'] / 10 ** 3 - speed * 8 / 10 ** 6
-                self.switch_state[dpid][port.port_no]['speed'] = speed
+                # self.switch_state[dpid][port.port_no]['free_bandwidth'] = \
+                #     self.switch_state[dpid][port.port_no]['curr_speed'] / 10 ** 3 - speed * 8 / 10 ** 6
+                self.switch_state[dpid][port.port_no]['free_bandwidth'] = max_bw - speed * 8 / 10 ** 6
+                self.switch_state[dpid][port.port_no]['speed'] = speed  # byte/s
                 # Mbps
         pass
 
@@ -156,12 +235,30 @@ class MySwitch(app_manager.RyuApp):
         switch_list = get_switch(self.topology_api_app, None)
         dpid_list = [switch.dp.id for switch in switch_list]
         self.datapaths = [switch.dp for switch in switch_list]
+        for dp in self.datapaths:
+            self.id2dp[dp.id] = dp
         self.net.add_nodes_from(dpid_list)
         link_list = get_link(self.topology_api_app, None)
         links = [(link.src.dpid, link.dst.dpid, {'attr_dict': {'port': link.src.port_no}}) for link in link_list]
         self.net.add_edges_from(links)
         links = [(link.dst.dpid, link.src.dpid, {'attr_dict': {'port': link.dst.port_no}}) for link in link_list]
         self.net.add_edges_from(links)
+
+    def get_bw_delay_range(self, _list):
+        minbw = float("inf")
+        maxbw = 0
+        mindelay = float("inf")
+        maxdelay = 0
+        for item in _list:
+            if item[1] < minbw:
+                minbw = item[1]
+            if item[1] > maxbw:
+                maxbw = item[1]
+            if item[2] < mindelay:
+                mindelay = item[2]
+            if item[2] > maxdelay:
+                maxdelay = item[2]
+        return minbw, maxbw, mindelay, maxdelay
 
     def get_outport(self, datapath, src, dst, in_port):
         dpid = datapath.id
@@ -173,12 +270,16 @@ class MySwitch(app_manager.RyuApp):
             self.paths.setdefault(src, {})
         best_path = []
         if dst in self.net:
-            if dst not in self.paths[src]:
-                paths_g = nx.shortest_simple_paths(self.net, src, dst)
+            if dst not in self.paths[src].keys():
+                paths_g = list(islice(nx.shortest_simple_paths(self.net, src, dst), self.K))  # todo: this function is
+                # all simple path and
                 # k = self.K
                 k = 0
-                last_bandwidth = - float("inf")
+                # last_bandwidth = - float("inf")
+                last_bandwidth = 0
+                K_path = []
                 for path in paths_g:
+                    sum_delay = 0
                     # k -= 1
                     # if k < 0:
                     #     break
@@ -186,28 +287,88 @@ class MySwitch(app_manager.RyuApp):
                     # traverse path
                     k = k + 1
                     min_bandwidth = float("inf")
+                    # min_bandwidth = 1
+                    if dpid not in path:
+                        continue
                     for n in range(len(path) - path.index(dpid) - 2):  # ignore port to dst_host
                         next_hop = path[path.index(cur_dp) + 1]
                         out_port = self.net[cur_dp][next_hop]['attr_dict']['port']
                         bw = self.switch_state[cur_dp][out_port]['free_bandwidth']
                         if min_bandwidth > bw:
                             min_bandwidth = bw
+                        sum_delay += self.link_delay[(cur_dp, next_hop)]
                         cur_dp = next_hop
-                    # find one path
-                    if last_bandwidth < min_bandwidth:
-                        last_bandwidth = min_bandwidth
-                        best_path = path
+                    K_path.append((path, min_bandwidth, sum_delay))
+                if not K_path:
+                    paths = list(islice(nx.shortest_simple_paths(self.net, dpid, dst), 1))
+                    for path in paths:
+                        out_port = self.net[dpid][path[1]]['attr_dict']['port']
+                    return out_port, True
+
+                min_k_bw, max_k_bw, min_k_delay, max_k_delay = self.get_bw_delay_range(K_path)
+                weight = 0
+                if (src, dst) in self.elephant_flow:
+                    half_k_path = []
+                    # self.logger.info("elephant_flow :"+src+"   "+dst)
+                    for p in K_path:
+                        if len(p[0]) == 3:
+                            best_path = p[0]
+                            break
+                        count = 0
+                        number = len(self.big_flowtable)
+                        for x in range(len(p[0]) - 3):
+                            c = p[x + 1]
+                            n = p[x + 2]
+                            out = self.net[c][n]['attr_dict']['port']
+                            if (c, out) in self.big_flowtable:
+                                count += 1
+
+                        if number:
+                            half_k_path.append((p[0], count / number, p[1]))
+                        else:
+                            half_k_path.append((p[0], 0, p[1]))
+                    half_k_path.sort(key=lambda x: x[1])
+                    li = half_k_path[0:len(half_k_path) // 2]
+                    li.sort(key=lambda x: x[2], reverse=True)
+                    best_path = li[0][0]
+                    # if max_k_bw - min_k_bw == 0:
+                    #     p_weight = 1
+                    # else:
+                    #     p_weight = (p[1] - min_k_bw) / (max_k_bw - min_k_bw)
+                    # if p_weight > weight:
+                    #     weight = p_weight
+                    #     best_path = p[0]
+                else:
+                    for p in K_path:
+                        if len(p[0]) == 3:
+                            best_path = p[0]
+                            break
+                        if max_k_bw - min_k_bw == 0:
+                            if max_k_delay - min_k_delay == 0:
+                                p_weight = 0.3 + 0.7
+                            else:
+                                p_weight = 0.3 + 0.7 * (max_k_delay - p[2]) / (max_k_delay - min_k_delay)
+                        else:
+                            if max_k_delay - min_k_delay == 0:
+                                p_weight = 0.3 * (p[1] - min_k_bw) / (max_k_bw - min_k_bw) + 0.7
+                            else:
+                                p_weight = 0.3 * (p[1] - min_k_bw) / (max_k_bw - min_k_bw) + 0.7 * (
+                                        max_k_delay - p[2]) / (
+                                                   max_k_delay - min_k_delay)
+                        if p_weight > weight:
+                            weight = p_weight
+                            best_path = p[0]
                 self.paths[src][dst] = best_path
-                self.logger.info("bw: %f, k= %d", min_bandwidth, k)
+                # self.logger.info("bw: %f, k= %d", min_bandwidth, k)
+                # self.logger.info("weight:%f", weight)
                 self.logger.info(best_path)
             else:
                 best_path = self.paths[src][dst]
-
             next_hop = best_path[best_path.index(dpid) + 1]
             out_port = self.net[dpid][next_hop]['attr_dict']['port']
         else:
             out_port = datapath.ofproto.OFPP_FLOOD
-        return out_port
+        return out_port, False
 
     @set_ev_cls(ofp_event.EventOFPPacketIn, MAIN_DISPATCHER)
     def packet_in_handler(self, ev):
@@ -222,7 +383,7 @@ class MySwitch(app_manager.RyuApp):
 
         if pkt.get_protocol(ipv6.ipv6):  # ignore ipv6
             match = parser.OFPMatch(eth_type=eth.ethertype)
-            self.add_flow(datapath, 1, match, actions=[])
+            self.add_flow(datapath, 0, match, actions=[])
             return
 
         arp_ = pkt.get_protocol(arp.arp)
@@ -258,12 +419,12 @@ class MySwitch(app_manager.RyuApp):
                     self.lldp_delay[(s_dpid, dpid)] = delay
 
             return
-        out_port = self.get_outport(datapath, eth.src, eth.dst, in_port)
+        out_port, flag = self.get_outport(datapath, eth.src, eth.dst, in_port)
         # self.logger.info("packet in %s %s %s %s", datapath.id, eth.src, eth.dst, in_port)
         actions = [parser.OFPActionOutput(out_port)]
-        if out_port != ofproto.OFPP_FLOOD:
-            match = parser.OFPMatch(in_port=in_port, eth_dst=eth.dst)
-            self.add_flow(datapath, 1, match, actions, idle_timeout=15, hard_timeout=60)
+        if out_port != ofproto.OFPP_FLOOD and not flag:
+            match = parser.OFPMatch(in_port=in_port, eth_dst=eth.dst, eth_src=eth.src)
+            self.add_flow(datapath, 1, match, actions, idle_timeout=15, hard_timeout=30)
 
         out = parser.OFPPacketOut(datapath=datapath, buffer_id=msg.buffer_id,
                                   in_port=in_port, actions=actions, data=msg.data)

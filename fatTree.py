@@ -1,9 +1,9 @@
 from mininet.topo import Topo
 
-K = 2
-bw_ca = 2
-bw_ae = 2
-bw_eh = 2
+K = 4
+bw_ca = 1
+bw_ae = 1
+bw_eh = 1
 delay = '5ms'
 
 class MyTopo(Topo):
